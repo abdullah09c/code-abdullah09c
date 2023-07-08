@@ -15,7 +15,5 @@ int main()
   return 0;
 }
 
-/*if i write 3 2 1 or 5 4 3 2 1.
-here index[2] = 2 or index[3]=3 which does not satisfy the condition.
- condition : index != ith number
+/*
  */
