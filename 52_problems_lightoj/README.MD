@@ -1,1 +1,1 @@
-Solution of problem from Tamim Shahriar Subun's "52 ti programming somossa"
+Solution of problem from Tamim Shahriar Subin's "52 ti programming somossa"
