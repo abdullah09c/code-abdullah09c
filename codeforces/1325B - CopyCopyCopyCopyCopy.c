@@ -4,26 +4,21 @@ int main()
   int i,t,j,n;
   scanf("%d", &t);
   while(t--) {
+    int flag, count = 0;
     scanf("%d", &n);
     int ara[n];
-    for(i = 0; i < n; i++)
+    for(i = 0; i < n; i++) {
     scanf("%d", &ara[i]);
-    
-    // sorting.....
-    
-    for(i = 0; i < n; i++)
-    for(j = i + 1; j < n; j++)
-    if(ara[i] > ara[j])
-   ara[i] ^= ara[j] ^= ara[i] ^= ara[j];
-  
-    //.........
-    int count = 0, temp = 0;
-    for(i = 0; i < n; i++)
-    if(ara[i]!=temp) {
-      count++;
-      temp = ara[i];
+    flag = 0;
+    for(j = 0; j <= i; j++) {
+    if(ara[i] == ara[j])
+    flag++;
     }
     
+    if(flag == 1)
+    count++;
+    }
+  
     printf("%d\n", count);
     
   }
