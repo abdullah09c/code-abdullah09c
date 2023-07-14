@@ -5,10 +5,7 @@ int main()
   scanf("%d", &t);
   while(t--) {
     scanf("%d%d", &a, &b);
-    if(!a)
-    printf("1\n");
-    else
-    printf("%d\n", (a + 2*b) + 1);
+    printf("%d\n", !a ? 1 : a+2*b+1);
     
   }
   
