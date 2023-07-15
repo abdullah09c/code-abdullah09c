@@ -10,16 +10,13 @@ int main()
   if(str[i] == 'x')
   count++;
   
-  if(str[i]!= 'x') {
-  if(count >= 3)
-  result += count - 2;
+  else
   count = 0;
-  }
+  
+  if (count >= 3)
+  result++; 
   
   }
-  
-  if(count >= 3)
-  result += count - 2;
   
   printf("%d", result);
   return 0;
