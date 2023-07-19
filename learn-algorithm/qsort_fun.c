@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int compArray(int *a, int *b)
+int compArray(const void *a, const void *b)
 {
-  return *a - *b;
+  return *(int*)a - *(int*)b;
 }
 
 /* if return value 
