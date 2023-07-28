@@ -7,17 +7,11 @@ int main()
    while (t--)
    {
     scanf("%lld", &n);
-    long long count = 0, temp;
-    for(i = 1; i*i <= n; i++) {
-      count++;
-    }
-    for (i = 1; i*i*i <= n; i++)
-    {
-      temp = sqrt(i*i*i);
-      temp *= temp;
-      if(temp != i*i*i)
-      count++;
-    }
+    long long count, sq, cb, common;
+    sq = sqrt(n);
+    cb = cbrt(n);
+    common = sqrt(cb);
+    count = sq+cb-common;
     
     printf("%lld\n", count);
    }
