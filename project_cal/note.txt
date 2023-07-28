@@ -1,1 +1,2 @@
-1. I have first learn how to sum 2 number of 100 digit
+1. I have first learn how to add and sub 2 number of 1000 digit ------ done.
+2. mul algorithm need.
