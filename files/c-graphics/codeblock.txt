@@ -1,0 +1,3 @@
+Just copy it to other linker option.
+
+-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
